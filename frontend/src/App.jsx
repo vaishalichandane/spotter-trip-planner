@@ -34,7 +34,7 @@ function App() {
     setTripData(null);
 
     try {
-      const res = await axios.post("http://127.0.0.1:8000/api/plan-trip/", {
+      const res = await axios.post("https://spotter-trip-planner-p7g7.onrender.com/api/plan-trip/", {
         ...formData,
       });
 
